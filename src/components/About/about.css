@@ -1,0 +1,45 @@
+.gsp__aboutsection{
+    /* display: flex; */
+    background-color: #111111;
+    position:relative;
+}
+
+.right-img{
+    display: flex;
+    justify-content: flex-end;
+}
+.about-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 371px;
+    height:245px;
+    border-radius: 117px;
+    /* background:radial-gradient(circle at 50% 6%, rgba(188, 114, 207, 1) 0%, rgba(135, 77, 167, 1) 91%, rgba(163, 102, 190, 1) 100%); */
+}
+
+.about-text-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-header h1{
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+   
+}
+
+.about-cards{
+    display: flex;
+    padding:2rem 6rem;
+}
+
+.getsetplay{
+    font-weight: 700;
+}

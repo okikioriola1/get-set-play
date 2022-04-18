@@ -1,0 +1,143 @@
+.gsp__herosection{
+    display: flex;
+    background-color: #111111;
+    padding-top: 8rem;
+    
+}
+
+
+.gsp__hero-left-side{
+    background: url('../../images/left-circle-bg.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.gsp__left-side-content h1{
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 90px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+    padding-bottom: 2rem
+}
+.gsp__left-side-content p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 28px;
+    color: #FFFFFF;
+    padding-bottom: 2rem;
+}
+.gsp__left-side-content{
+    padding:4rem;
+}
+
+.gsp__hero-btn{
+    background: linear-gradient(99.85deg, #1F2D65 12.22%, rgba(40, 161, 213, 0.56) 35.08%, rgba(172, 111, 247, 0.9) 91.54%);
+    /* filter: blur(1px); */
+    border-radius: 25px;
+    border: 2px solid #fff;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+    width: 200px;
+    height: 75px
+}
+.set{
+    font-weight: 600;
+}
+
+.play{
+    font-weight: 800;
+}
+.gsp__hero-right-side{
+    width:70%;
+    /* background:radial-gradient(circle at 55% 76%, rgba(9, 14, 43, 1) 0%, rgba(18, 18, 23, 1) 50%, rgba(24, 24, 113, 1) 100%); */
+}
+.gsp__hero-icons{
+    width: 5%;
+    display: flex;
+    justify-content: center;
+}
+.controller-img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+
+}
+
+.gsp__hero-icon-link li{
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+.gsp__hero-icon-link svg{
+    color:#F3F6FF33;
+    width:31px;
+    height:31px;
+    padding-top: 1px;
+}
+
+.instagram-icon{
+    width:31px;
+    height:31px;
+}
+
+@media (max-width:1150px){
+    .gsp__herosection{
+        flex-direction: column;
+    }
+    .gsp__hero-icon-link ul{
+        display: flex;   
+    }
+    .gsp__hero-icons{
+        width:100%;
+    }
+    .gsp__hero-icon-link li{
+        padding: 15px;
+    
+    }
+    .gsp__hero-right-side{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+
+
+
+}
+
+@media (max-width:550px){
+    .gsp__left-side-content{
+        padding:0;
+    }
+
+    .gsp__hero-icons{
+        display: none;
+    }
+    .gsp__left-side-content h1{
+        font-size: 50px;
+        line-height: 70px;
+
+    }
+    .gsp__left-side-content p{
+        font-size: 9px;
+        line-height: 20px;
+
+    }
+    .gsp__hero-btn{
+        height: 60px;
+    }
+}
