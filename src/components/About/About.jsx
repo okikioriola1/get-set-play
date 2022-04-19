@@ -15,7 +15,7 @@ const About = () => {
                 </div>
                 <div className="about-text-section">
             <div className="about-header">
-                <h1>ABOUT<span className="getsetplay">GETSETPLAY</span></h1>
+                <h1>ABOUT <span className="getsetplay">GETSETPLAY</span></h1>
             </div>
             </div>
             
