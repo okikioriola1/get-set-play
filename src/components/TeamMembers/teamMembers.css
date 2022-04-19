@@ -1,0 +1,38 @@
+.team-members-section{
+padding:3rem 6rem;
+background: #111111;
+}
+
+.team-members-header h1{
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+
+}
+
+
+.members{
+    font-weight: 700;
+}
+
+.team-cards-top{
+    /* background: #3C1960;
+    filter: blur(3px); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+
+}
+
+.team-cards-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+}

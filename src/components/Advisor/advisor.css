@@ -1,0 +1,36 @@
+.advisor-section{
+ 
+    background: #111111;
+
+}
+.advisor-content{
+    padding: 5rem 6rem;    
+    background:linear-gradient(1deg, rgba(8, 8, 26, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(78, 74, 192, 1) 40%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.advisor-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advisor-bottom-img{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.advisor-header h1{
+    font-family: 'TT Norms', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 54px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.advisor-header{
+    padding-bottom: 3rem;
+}

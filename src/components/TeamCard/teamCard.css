@@ -1,0 +1,126 @@
+.team-card{
+    width:260px;
+    /* height:570px; */
+    background: url('../../images/team-card-bg.png');
+    border-radius: 2rem;
+    margin-left: 7rem;
+}
+
+.rectangular-bar{
+    width:80px;
+    height:2px;
+    background: linear-gradient(270deg, #B172F6 0%, #7B6AE3 50%);
+    border-radius: 42px;
+    margin:auto;
+}
+
+.team-linkedin{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 2rem;
+    padding-right: 2rem;
+}
+
+.team-linkedin-icon{
+    background: linear-gradient(130.07deg, rgba(183, 116, 246, 0.6) -3.21%, rgba(250, 250, 252, 0.12) 104.58%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.team-member-img{
+    /* clip-path: ellipse(180px 100% at 142px 100%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.team-image{
+    background: url('../../images/team-member-img-bg.svg') left top no-repeat ;
+
+
+}
+.team-member-img img{
+    margin-top: 1rem;
+    margin-left: 1rem;
+    
+}
+
+.team-member-profile h1{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 23px;
+    letter-spacing: -0.005em;
+
+    color: #EFEBF6;
+
+
+}
+
+.team-member-profile p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 15px;
+    letter-spacing: -0.005em;
+
+    color: #EFEBF6;
+
+}
+.team-member-profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1.3rem 0 0.7rem 0;
+}
+
+
+.about-member p{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    letter-spacing: 0.01em;
+    color: #E3E1E7;
+
+}
+.about-member{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:1rem;
+}
+
+.team-card-btns{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.team-card-btns button{
+    background: linear-gradient(130.07deg, rgba(183, 116, 246, 0.6) -3.21%, rgba(250, 250, 252, 0.12) 104.58%);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    box-sizing: border-box;
+    width:66px;
+    height:28px;
+    border-radius: 11px;
+    color: #fff;
+    margin: 0 1rem;
+    text-align: center;
+    outline: none;
+}
+
