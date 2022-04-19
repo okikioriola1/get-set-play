@@ -1,6 +1,7 @@
 .advisor-section{
  
     background: #111111;
+    position: relative;
 
 }
 .advisor-content{
@@ -13,11 +14,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding:0 14rem;
 }
 
 .advisor-bottom-img{
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    right: 0;
+    bottom: -20%;
 }
 
 .advisor-header h1{

@@ -9,6 +9,7 @@ import PlayToEarn from './components/PlayToEarn/PlayToEarn';
 import TeamMembers from './components/TeamMembers/TeamMembers';
 import Advisor from './components/Advisor/Advisor';
 import Footer from './components/Footer/Footer';
+import RoadMap from './components/RoadMap/RoadMap';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Token/>
       <InfoSection/>
       <PlayToEarn/>
+      <RoadMap/>
       <TeamMembers/>
       <Advisor/>
       <Footer/>

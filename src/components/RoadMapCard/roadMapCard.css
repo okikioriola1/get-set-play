@@ -1,0 +1,17 @@
+
+.road-map-card{
+    display: flex;
+}
+.road-map-card-list{
+    padding-top: 1rem;
+    color:#fff;
+}
+
+.road-map-card-list p{
+    font-family: 'Blinker', 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+    color: #FFFFFF;
+}

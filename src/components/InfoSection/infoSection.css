@@ -18,7 +18,7 @@
 
 .info-right-image{
     position: absolute;
-    bottom:-20%;
+    bottom:-9%;
     left:0;
     display: flex;
     justify-content: flex-end;
@@ -30,7 +30,18 @@
 
 .info-section-container{
     padding:6rem 6rem;
-    padding-bottom:8rem;
-    display: flex;
+    padding-bottom:10rem;
+    
     background:linear-gradient(268deg, rgba(123, 57, 140, 1) 0%, rgba(53, 45, 45, 1) 51%, rgba(122, 49, 130, 1) 100%);
+}
+
+.info-card-top{
+    display: flex;
+    justify-content: center;
+}
+
+.info-card-bottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
 }

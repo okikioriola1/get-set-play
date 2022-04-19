@@ -1,5 +1,5 @@
 .footer-section{
-    padding: 4rem 6rem;
+    padding:10rem 6rem 4rem 6rem;
     background:radial-gradient(circle at 50% 6%, rgba(8, 8, 26, 1) 0%, rgba(25, 30, 76, 1) 0%, rgba(38, 36, 93, 1) 47%, rgba(0, 0, 0, 1) 100%);
 }
 
@@ -76,7 +76,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 16px;
     color: #FFFFFF;
 }
@@ -88,8 +88,9 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 11px;
     line-height: 16px;
     color: #FFFFFF;
+    padding-left: 1rem;
 
 }

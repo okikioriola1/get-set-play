@@ -29,7 +29,9 @@
 }
 .card-top{
     display: flex;
+    justify-content: center;
 }
 .card-bottom{
     display: flex;
+    justify-content: center;
 }

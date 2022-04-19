@@ -1,8 +1,8 @@
 import React from 'react'
 import './heroSection.css'
 import HeroImage from '../../images/hero-controller.png'
-import InstagramIcon from '../../images/gsp-instagram.svg'
-import {FaTelegramPlane} from 'react-icons/fa'
+
+import {FaTelegramPlane, FaInstagram} from 'react-icons/fa'
 import {RiTwitterFill} from 'react-icons/ri'
 
 const HeroSection = () => {
@@ -23,7 +23,7 @@ const HeroSection = () => {
             <div className="gsp__hero-icons">
                 <div className="gsp__hero-icon-link">
                     <ul>
-                    <li><a href="#home" className="hero-icon-link"><img src={InstagramIcon} className="instagram-icon" alt="instgram"/></a></li>
+                    <li><a href="#home" className="hero-icon-link"><FaInstagram/></a></li>
                     <li><a href="#home" className="hero-icon-link"><FaTelegramPlane/></a></li>
                     <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>
                     <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>

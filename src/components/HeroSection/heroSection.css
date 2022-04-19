@@ -40,7 +40,7 @@
 
 .gsp__hero-btn{
     background: linear-gradient(99.85deg, #1F2D65 12.22%, rgba(40, 161, 213, 0.56) 35.08%, rgba(172, 111, 247, 0.9) 91.54%);
-    /* filter: blur(1px); */
+    
     border-radius: 25px;
     border: 2px solid #fff;
     font-family: 'Arial';
@@ -53,6 +53,14 @@
     color: #FFFFFF;
     width: 200px;
     height: 75px;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+
+.gsp__hero-btn:hover{
+     filter: blur(1px); 
+     transform: scale(1.3);
+
 }
 .set{
     font-weight: 600;
@@ -88,6 +96,12 @@
     width:31px;
     height:31px;
     padding-top: 1px;
+    transition: ease-in-out 1s;
+}
+
+.gsp__hero-icon-link svg:hover{
+    color:#fff;
+    transform: scale(1.1);
 }
 
 .instagram-icon{
