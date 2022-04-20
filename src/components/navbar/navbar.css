@@ -1,20 +1,23 @@
 .gsp__navbar{
     /* background:linear-gradient(90deg, rgba(43, 9, 38, 1) 0%, rgba(23, 18, 23, 1) 50%, rgba(46, 17, 44, 1) 100%); */
-    padding: 1.5rem 4rem;
+    padding: 1.5rem 2rem;
     background-color: #111111;
 }
 
 
 .gsp__navbar-container{
     display: flex;
-    justify-content: space-between;
+    
 }
 
 .gsp__nav-links{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     width:50%;
+}
+.gsp__logo{
+    width:50%
 }
 
 .gsp__nav-links p{
@@ -25,6 +28,10 @@
     line-height: 19px;
     color: #FFFFFF;
     padding: 0 2rem;
+    text-transform: uppercase;
+    width:19%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .gsp__logo img{

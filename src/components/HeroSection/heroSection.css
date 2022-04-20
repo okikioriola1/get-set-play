@@ -1,7 +1,8 @@
 .gsp__herosection{
     display: flex;
     background-color: #111111;
-    padding-top: 8rem;
+    padding-top: 3rem;
+    height:1014px;
     
 }
 
@@ -11,7 +12,8 @@
     background-size: cover;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    width:30%;
 
 }
 
@@ -35,7 +37,7 @@
     padding-bottom: 2rem;
 }
 .gsp__left-side-content{
-    padding:4rem;
+    padding:10rem 0;
 }
 
 .gsp__hero-btn{

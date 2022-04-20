@@ -14,7 +14,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding:0 14rem;
+    
 }
 
 .advisor-bottom-img{
@@ -23,6 +23,9 @@
     position: absolute;
     right: 0;
     bottom: -20%;
+}
+.advisor-bottom-img img{
+    width:194px;
 }
 
 .advisor-header h1{

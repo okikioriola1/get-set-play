@@ -1,7 +1,8 @@
 .token-section{
     /* background-color: #111111; */
     /* background:radial-gradient(circle at 50% 6%, rgba(131, 83, 143, 1) 0%, rgba(119, 104, 147, 1) 41%, rgba(3, 2, 3, 1) 100%); */
-    background-image: url('../../images/Token-bg.png'), linear-gradient(#111111,#111111);
+    /* background-image: url('../../images/Token-bg.png'), linear-gradient(#111111,#111111); */
+    background: url('../../images/Token-bg.png'),radial-gradient(circle, rgba(60,25,96,1) 0%, rgba(0,0,0,1) 49%);
     background-position: center;
     background-size: cover;
     padding:2rem 6rem;
@@ -38,6 +39,10 @@
 .token-container{
     display: flex;
 
+}
+.token-text{
+    width:50%;
+    padding:2rem;
 }
 
 .token-text-content p{

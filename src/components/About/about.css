@@ -8,6 +8,11 @@
     display: flex;
     justify-content: flex-end;
 }
+
+.left-img{
+    background: linear-gradient(90deg, rgba(60,25,96,1) 18%, #111111 78%);
+    width: 30%;
+}
 .about-header{
     display: flex;
     align-items: center;
@@ -22,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: radial-gradient(circle, rgba(60,25,96,1) 25%, #111111 63%);
 }
 .about-header h1{
     font-family: 'TT Norms', sans-serif;
@@ -37,7 +43,8 @@
 
 .about-cards{
     display: flex;
-    padding:2rem 6rem;
+    padding:2rem;
+    justify-content: center;
 }
 
 .getsetplay{

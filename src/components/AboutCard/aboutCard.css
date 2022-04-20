@@ -13,6 +13,10 @@
     height:89px;
 
 }
+.card-text{
+    width:80%;
+    padding-left: 5rem;
+}
 .card-text h1{
     font-family: 'Arial';
     font-style: normal;

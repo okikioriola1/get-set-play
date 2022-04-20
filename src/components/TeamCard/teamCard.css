@@ -1,9 +1,10 @@
 .team-card{
-    width:260px;
+    width:275px;
     /* height:570px; */
     background: url('../../images/team-card-bg.png');
     border-radius: 2rem;
     margin-left: 7rem;
+    padding:0 1.5rem;
 }
 
 .rectangular-bar{
