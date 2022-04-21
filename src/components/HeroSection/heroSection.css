@@ -2,18 +2,22 @@
     display: flex;
     background-color: #111111;
     padding-top: 3rem;
+    padding-bottom:13rem;
     height:1014px;
     
 }
 
-
+.hero-left-side-img{
+    position: absolute;
+}
 .gsp__hero-left-side{
-    background: url('../../images/left-circle-bg.png');
-    background-size: cover;
+    /* background: url('../../images/left-circle-bg.png');
+    background-size: cover; */
     display: flex;
     justify-content: center;
     align-items: flex-start;
     width:30%;
+    position: relative;
 
 }
 
@@ -25,7 +29,9 @@
     line-height: 90px;
     letter-spacing: -0.1em;
     color: #FFFFFF;
-    padding-bottom: 2rem
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 1000;
 }
 .gsp__left-side-content p{
     font-family: 'Arial';
@@ -35,6 +41,8 @@
     line-height: 28px;
     color: #FFFFFF;
     padding-bottom: 2rem;
+    position: relative;
+    z-index: 1000;
 }
 .gsp__left-side-content{
     padding:10rem 0;
@@ -60,31 +68,52 @@
 }
 
 .gsp__hero-btn:hover{
-     filter: blur(1px); 
-     transform: scale(1.3);
+    box-shadow: 2px 3px 32px 20px  rgba(172, 111, 247, 0.9) ;
+     transform: scale(1);
 
 }
-.set{
+.hero-get{
+    font-weight: 500;
+}
+.hero-set{
     font-weight: 600;
 }
 
-.play{
+.hero-play{
     font-weight: 800;
 }
 .gsp__hero-right-side{
     width:70%;
+    position: relative;
     /* background:radial-gradient(circle at 55% 76%, rgba(9, 14, 43, 1) 0%, rgba(18, 18, 23, 1) 50%, rgba(24, 24, 113, 1) 100%); */
 }
 .gsp__hero-icons{
     width: 5%;
     display: flex;
     justify-content: center;
+    position: fixed;
+    right:0;
+    z-index: 1000;
 }
 .controller-img{
     width: 100%;
     height:100%;
     object-fit: cover;
+    position:relative;
+    z-index:10000;
 
+}
+.gsp__hero-right-side:after{
+    content:'';
+    background: radial-gradient(circle, rgb(16 17 88) 2%, rgba(8,6,10,1) 62%);
+    width: 80%;
+    height: 1002px;
+    position: absolute;
+    left: 20%;
+    filter: blur(215px);
+    /* overflow: overlay; */
+    padding-bottom: 6rem;
+    top: 214px;
 }
 
 .gsp__hero-icon-link li{

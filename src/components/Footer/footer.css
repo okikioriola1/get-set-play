@@ -1,13 +1,24 @@
 .footer-section{
-    padding:10rem 6rem 4rem 6rem;
-    background:radial-gradient(circle at 50% 6%, rgba(8, 8, 26, 1) 0%, rgba(25, 30, 76, 1) 0%, rgba(38, 36, 93, 1) 47%, rgba(0, 0, 0, 1) 100%);
+    padding:10rem 6rem 4rem 4rem;
+    /* background:radial-gradient(circle at 50% 6%, rgba(8, 8, 26, 1) 0%, rgba(25, 30, 76, 1) 0%, rgba(38, 36, 93, 1) 47%, rgba(0, 0, 0, 1) 100%); */
+    background: radial-gradient(circle, rgba(48,49,116,1) 0%, rgba(9,7,13,1) 63%);
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .footer-content{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+.footer-text{
+    width:50%
 }
 
+.footer-form{
+    width:50%;
+}
 
 .top-footer-text h1{
     font-family: 'Arial';
@@ -27,6 +38,9 @@
     line-height: 32px;
     color: #FFFFFF;
 
+}
+.top-footer-text{
+    padding:0 2rem;
 }
 .form{
     display: flex;
@@ -68,8 +82,12 @@
 .footer-bottom{
     display: flex;
     align-items: flex-end;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-top: 4rem;
+}
+.bottom-footer-text{
+    width:50%;
+    padding-left:2rem;
 }
 
 .bottom-footer-text p{
@@ -83,6 +101,9 @@
 
 .footer-agreement{
     display: flex;
+    width:50%;
+    justify-content: flex-end;
+    padding-right: 13rem;
 }
 .footer-agreement p{
     font-family: 'Arial';

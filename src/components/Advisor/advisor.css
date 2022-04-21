@@ -5,8 +5,11 @@
 
 }
 .advisor-content{
-    padding: 5rem 6rem;    
-    background:linear-gradient(1deg, rgba(8, 8, 26, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(78, 74, 192, 1) 40%, rgba(0, 0, 0, 1) 100%);
+    padding: 5rem 6rem 0 6rem;    
+    /* background:linear-gradient(1deg, rgba(8, 8, 26, 1) 0%, rgba(0, 0, 0, 1) 0%, rgba(78, 74, 192, 1) 40%, rgba(0, 0, 0, 1) 100%); */
+    /* background: radial-gradient(circle, rgba(48,49,116,1) -10%, rgba(8,6,10,1) 56%); */
+    background: radial-gradient(circle, rgba(48,49,116,1) 0%, rgba(9,7,13,1) 65%);
+    /* background: #08060a; */
 
 }
 
@@ -14,6 +17,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* background: radial-gradient(circle, rgba(48,49,116,1) 0%, rgba(9,7,13,1) 63%); */
+    /* background: radial-gradient(circle, rgba(48,49,116,1) -10%, rgba(8,6,10,1) 56%); */
+    padding: 1rem 0 7rem 0;
     
 }
 

@@ -10,10 +10,25 @@ import PteCs from '../../images/pte-cs.png'
 import PteLol from '../../images/pte-lol.png'
 import PteRainbow from '../../images/pte-rainbow.png'
 import PteDota from '../../images/pte-dota.png'
-
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 
 const PlayToEarn = () => {
+    const responsive = {
+        desktop: {
+          breakpoint: { max: 5000, min: 1024 },
+          items: 3
+        },
+        tablet: {
+          breakpoint: { max: 1024, min: 464 },
+        //   items: 1
+        // },
+        // mobile: {
+        //   breakpoint: { max: 464, min: 0 },
+          items: 1
+        }
+      };
     return (
         <div className="play-to-earn-section">
             <div className="pte-right-img">
@@ -24,14 +39,38 @@ const PlayToEarn = () => {
             </div>
             <div className="play-to-earn-container">
                 <div className="card-top">
+                    <Carousel  swipeable={false}
+             draggable={true}
+             infinite={true}
+             autoPlay={true}
+             autoPlaySpeed={2000}
+             arrows={false}
+             responsive={responsive}
+            
+             
+             keyBoardControl={true}>
                 <PteCard PteImage={PteCod} pteParagraph={"WARZONE"}/>
                 <PteCard PteImage={PteFortnite} pteParagraph={"FORTNITE"}/>
                 <PteCard PteImage={PteCs} pteParagraph={"CS-GO"}/>
+                </Carousel>
                 </div>
                 <div className="card-bottom">
+                    <Carousel  swipeable={false}
+             draggable={true}
+             infinite={true}
+             autoPlay={true}
+             autoPlaySpeed={2000}
+             arrows={false}
+             responsive={responsive}
+
+            
+             
+             keyBoardControl={true}>
+
                 <PteCard PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
                 <PteCard PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
                 <PteCard PteImage={PteDota} pteParagraph={"DOTA 2"}/>
+                </Carousel>
                 </div>
             </div>
             <div className="pte-left-img">

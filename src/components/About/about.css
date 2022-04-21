@@ -7,11 +7,28 @@
 .right-img{
     display: flex;
     justify-content: flex-end;
+    position: absolute;
+    top: -14%;
+    right: 0;
 }
 
 .left-img{
+    position: relative;
+}
+.left-img img{
+    position: relative;
+    z-index: 1000;
+}
+.left-img::after{
+    content: '';
+    position: absolute;
+    top: -51px;
+    left: 0;
+    width: 67%;
+    height: 100%;
     background: linear-gradient(90deg, rgba(60,25,96,1) 18%, #111111 78%);
-    width: 30%;
+    filter: blur(114px);
+
 }
 .about-header{
     display: flex;
@@ -27,7 +44,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
+}
+.about-header:after{
+    content: '';
+    position: absolute;
     background: radial-gradient(circle, rgba(60,25,96,1) 25%, #111111 63%);
+    top: -78px;
+    width: 74%;
+    height: 307px;
+    filter: blur(118px);
+
 }
 .about-header h1{
     font-family: 'TT Norms', sans-serif;
@@ -38,6 +66,7 @@
     text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;
+    z-index: 10000;
    
 }
 

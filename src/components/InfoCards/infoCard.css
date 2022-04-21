@@ -6,8 +6,16 @@
     box-sizing: border-box;
     border-radius: 50px;
     margin-right:4rem;
+    cursor: pointer;
+    transition: ease-in-out 1s;
     }
 
+.info-card:hover{
+    box-shadow: 2px 3px 32px 20px  rgba(38, 29, 160, 0.9) ;
+    border: 5px solid #29afe2;
+
+
+}
 
 
 
@@ -46,7 +54,7 @@
 
 
 }
-.info-image-part img{
-    /* width:83px;
-    height:83px; */
-}
+/* .info-image-part img{
+     width:83px;
+    height:83px; 
+} */

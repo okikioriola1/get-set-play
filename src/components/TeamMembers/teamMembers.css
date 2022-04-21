@@ -1,6 +1,6 @@
 .team-members-section{
 padding:3rem;
-background: #111111;
+background: radial-gradient(circle, rgba(60,25,96,1) 29%, rgba(8,6,10,1) 58%);
 }
 
 .team-members-header h1{
@@ -12,6 +12,9 @@ background: #111111;
     text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;
+
+}
+.team-cards{
 
 }
 

@@ -3,14 +3,18 @@
     width:590px;
     height: 500px;
     padding: 0 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .blur-part{
     background:radial-gradient(ellipse at 50% 6%, rgba(208, 173, 217, 1) 0%, rgba(90, 79, 130, 1) 47%, rgba(0, 0, 0, 1) 100%);
     filter: blur(27px);
-    width:395px;
-    height:89px;
+    width: 376px;
+    height: 77px;
 
 }
 .card-text{
@@ -38,9 +42,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    transition: ease-in-out 1s;
+}
+.image-part:hover{
+    transform: scale(1.1);
 }
 
 .image-part img{
     width: 300px;
     height:300px;
 }
+

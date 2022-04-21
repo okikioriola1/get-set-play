@@ -1,13 +1,16 @@
 import React from 'react'
 import './token.css'
 import TokenImage from '../../images/token-img.png'
+import TokenBgImg from '../../images/Token-bg.png'
 const Token = () => {
     return (
         <div className="token-section" id="token">
             <div className="token-header">
                 <h1>TOKEN</h1>
             </div>
+            <img src={TokenBgImg} className="token-bg-img" alt="token"/>
             <div className="token-container">
+
                 <div className="token-text">
                     <div className="token-text-content">
                         <h1>$GSP</h1>

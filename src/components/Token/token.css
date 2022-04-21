@@ -2,12 +2,15 @@
     /* background-color: #111111; */
     /* background:radial-gradient(circle at 50% 6%, rgba(131, 83, 143, 1) 0%, rgba(119, 104, 147, 1) 41%, rgba(3, 2, 3, 1) 100%); */
     /* background-image: url('../../images/Token-bg.png'), linear-gradient(#111111,#111111); */
-    background: url('../../images/Token-bg.png'),radial-gradient(circle, rgba(60,25,96,1) 0%, rgba(0,0,0,1) 49%);
+    background: radial-gradient(circle, rgba(60,25,96,1) 0%, rgb(16 15 20) 49%);
     background-position: center;
     background-size: cover;
-    padding:2rem 6rem;
-
+    padding: 2rem 0;
+    height: 985px;
+    position: relative;
 }
+
+
 .token-header{
     padding-bottom:2rem;
 }
@@ -24,7 +27,7 @@
 }
 
 .token-text-content{
-    padding: 2rem 0;
+    padding: 2rem 6rem;
 }
 
 .token-text-content h1{
@@ -38,10 +41,11 @@
 
 .token-container{
     display: flex;
+    position: relative;
 
 }
 .token-text{
-    width:50%;
+    width:41%;
     padding:2rem;
 }
 
@@ -56,11 +60,21 @@
     }
 
     .token-img img{
-        width: 500px;
-        height: 500px;
+        width: 475px;
+        height: 450px;
+        position: relative;
+        z-index: 1000;
         object-fit: cover;
 
     }
 .token-img{
     padding-left: 4rem;
+}
+
+.token-bg-img{
+    position: absolute;
+    position: absolute;
+    top: 37px;
+    height: 843px;
+    width: 100%;
 }

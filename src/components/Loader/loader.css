@@ -1,0 +1,25 @@
+.loader-screen{
+    align-items: center;
+    background: #000;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 1000000000;
+}
+
+
+.get,
+.set,
+.play{
+    font-family: 'TT Norms',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 123px;
+    letter-spacing: -0.1em;
+    color: #FFFFFF;
+}
