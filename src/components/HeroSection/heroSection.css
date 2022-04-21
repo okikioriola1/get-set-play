@@ -9,6 +9,7 @@
 
 .hero-left-side-img{
     position: absolute;
+    left: 0;
 }
 .gsp__hero-left-side{
     /* background: url('../../images/left-circle-bg.png');
@@ -68,9 +69,8 @@
 }
 
 .gsp__hero-btn:hover{
-    box-shadow: 2px 3px 32px 20px  rgba(172, 111, 247, 0.9) ;
+    box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
      transform: scale(1);
-
 }
 .hero-get{
     font-weight: 500;

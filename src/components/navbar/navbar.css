@@ -24,14 +24,36 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 19px;
     color: #FFFFFF;
     padding: 0 2rem;
     text-transform: uppercase;
-    width:19%;
+    width:18%;
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
+}
+.nav-explore{
+    background: linear-gradient(99.85deg, #1F2D65 12.22%, rgba(40, 161, 213, 0.56) 35.08%, rgba(172, 111, 247, 0.9) 91.54%);
+    
+    border-radius: 25px;
+    border: 2px solid #fff;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.16em;
+    color: #FFFFFF;
+    width: 140px;
+    height: 60px;
+    transition: all ease-in-out 1s;
+    cursor: pointer;
+}
+.gsp__hero-btn:hover{
+    box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
+     transform: scale(1);
 }
 
 .gsp__logo img{

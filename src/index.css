@@ -6,3 +6,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+@font-face{
+  font-family: 'TT Norms';
+  src: url('./font/TTNorms-Medium.otf')
+
+}
+
+@font-face{
+  font-family: 'TT Norms Bold';
+  src: url('./font/TTNorms-Bold.otf')
+
+}
+

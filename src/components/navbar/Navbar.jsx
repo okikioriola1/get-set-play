@@ -11,6 +11,7 @@ const Navbar = () => {
      <p><a href="#token">Play to Earn</a></p>
      <p><a href="#roadmap">Roadmap</a></p>
      <p><a href="#team">Team</a></p>
+     <button className="nav-explore">Explore</button>
         </>
     )
     const [toggleMenu, setToggleMenu] = useState(false)
