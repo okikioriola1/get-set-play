@@ -38,3 +38,10 @@
     letter-spacing: -0.1em;
     color: #6D4CD5;
 }
+
+
+@media(max-width:1050px){
+    .road-map-main{
+        flex-direction: column;
+    }
+}

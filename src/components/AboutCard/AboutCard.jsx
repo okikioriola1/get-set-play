@@ -5,7 +5,7 @@ import './aboutCard.css'
 const AboutCard = ({aboutImage, headerText, paragraph}) => {
     return (
         <div className="about-card">
-            <div className="image-part">
+            <div className="image-part rotate">
                 <img src={aboutImage} className="about-card-img" alt="about"/>
             </div>
             <div className="blur-part"></div>

@@ -10,6 +10,12 @@ import PteCs from '../../images/pte-cs.png'
 import PteLol from '../../images/pte-lol.png'
 import PteRainbow from '../../images/pte-rainbow.png'
 import PteDota from '../../images/pte-dota.png'
+import PteFaraland from '../../images/Faraland.png'
+import PteFota from '../../images/Fota.png'
+import PteSandbox from '../../images/Sandbox.png'
+import PteMitra from '../../images/Mitra.png'
+import PteWanaka from '../../images/Wanaka.png'
+import PteStepHero from '../../images/Step-hero.png'
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -21,7 +27,7 @@ const PlayToEarn = () => {
           items: 3
         },
         tablet: {
-          breakpoint: { max: 1024, min: 464 },
+          breakpoint: { max: 1024, min: 0 },
         //   items: 1
         // },
         // mobile: {
@@ -52,6 +58,9 @@ const PlayToEarn = () => {
                 <PteCard PteImage={PteCod} pteParagraph={"WARZONE"}/>
                 <PteCard PteImage={PteFortnite} pteParagraph={"FORTNITE"}/>
                 <PteCard PteImage={PteCs} pteParagraph={"CS-GO"}/>
+                <PteCard PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
+                <PteCard PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
+                <PteCard PteImage={PteDota} pteParagraph={"DOTA 2"}/>
                 </Carousel>
                 </div>
                 <div className="card-bottom">
@@ -67,9 +76,12 @@ const PlayToEarn = () => {
              
              keyBoardControl={true}>
 
-                <PteCard PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
-                <PteCard PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
-                <PteCard PteImage={PteDota} pteParagraph={"DOTA 2"}/>
+                    <PteCard PteImage={PteFaraland} pteParagraph={"Faraland"}/>
+                    <PteCard PteImage={PteFota} pteParagraph={"Fota"}/>
+                    <PteCard PteImage={PteSandbox} pteParagraph={"Sandbox"}/>
+                    <PteCard PteImage={PteMitra} pteParagraph={"LEAGUE OF MITRA"}/>
+                    <PteCard PteImage={PteWanaka} pteParagraph={"Wanaka farm"}/>
+                    <PteCard PteImage={PteStepHero} pteParagraph={"Step Hero"}/>
                 </Carousel>
                 </div>
             </div>

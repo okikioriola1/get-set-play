@@ -6,7 +6,7 @@ const PteCard = ({PteImage, pteParagraph}) => {
     return (
         <div className="pte-card">
             <div className="pte-card-img">
-                <img src={PteImage} alt="cod"/>
+                <img src={PteImage} alt="pte"/>
 
             </div>
             <div className="pte-card-text">

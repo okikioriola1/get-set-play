@@ -69,6 +69,7 @@
     height: 75px;
     transition: all ease-in-out 1s;
     cursor: pointer;
+    z-index:10000;
 }
 
 .gsp__hero-btn:hover{
@@ -161,12 +162,17 @@
         width:100%;
         display:flex;
         justify-content: center;
+        align-items: center;
+        padding-top: 1rem;
     }
     .gsp__hero-left-side{
         width:100%;
     }
     .gsp__left-side-content{
         padding:5rem 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
     .controller-img{
         width: 80%;
@@ -174,11 +180,18 @@
 
     
     }
+    .gsp__left-side-content p{
+        font-size: 18px;
+    }
     .hero-left-side-img{
         display: none;
     }
     .gsp__hero-icons{
         display:none;
+    }
+    .hero-button{
+        display: flex;
+        justify-content: center;
     }
 
 

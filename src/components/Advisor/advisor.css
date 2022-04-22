@@ -54,3 +54,9 @@
         flex-wrap: wrap;
     }
 }
+
+@media(max-width:500px){
+    .advisor-content{
+        padding: 5rem 0;
+    }
+}

@@ -137,5 +137,6 @@
 @media(max-width:1050px){
     .team-card{
         margin-left: 2rem;
+        margin-top: 1rem;
     }
 }

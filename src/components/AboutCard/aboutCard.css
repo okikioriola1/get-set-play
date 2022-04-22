@@ -54,3 +54,33 @@
     height:300px;
 }
 
+
+.rotate{
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation{
+    from{
+      transform: rotateY(0deg);
+    }
+    to{
+      transform: rotateY(359deg);
+    }
+  }
+
+
+  @media(max-width:500px){
+      .about-card{
+          width:100%;
+      }
+      .blur-part{
+          width:260px;
+      }
+      .card-text{
+             width: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+      }
+  }

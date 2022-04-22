@@ -39,3 +39,12 @@ background: radial-gradient(circle, rgba(60,25,96,1) 29%, rgba(8,6,10,1) 58%);
     align-items: center;
     padding-top: 5rem;
 }
+
+@media(max-width:1050px){
+    .team-cards-top{
+        flex-wrap: wrap;
+    }
+    .team-cards-bottom{
+        flex-wrap: wrap;
+    }
+}

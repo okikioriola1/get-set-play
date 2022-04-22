@@ -84,4 +84,34 @@
     .token-text-content{
         padding: 2rem 2rem;
     }
+
+}
+
+@media(max-width: 920px){
+    .token-text{
+        width:80%;
+    }
+    .token-section{
+        height:100%;
+    }
+    .token-container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .token-text-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media(max-width:500px){
+    .token-img img{
+        width: 300px;
+        height: 300px;
+
+
+    }
 }

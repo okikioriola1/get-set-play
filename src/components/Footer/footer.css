@@ -17,8 +17,12 @@
 }
 
 .footer-form{
+ 
     width:50%;
 }
+
+
+
 
 .top-footer-text h1{
     font-family: 'Arial';
@@ -114,4 +118,22 @@
     color: #FFFFFF;
     padding-left: 1rem;
 
+}
+
+@media(max-width:990px){
+    .footer-content{
+        flex-direction: column;
+    }
+    .footer-text{
+        width:100%;
+    }
+    .footer-form{
+        width:100%;
+    }
+}
+
+@media(max-width:600px){
+    .footer-section{
+        padding:8rem 2rem 2rem 4rem;
+    }
 }

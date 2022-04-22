@@ -61,4 +61,13 @@
         width: 280px;
         height: 350px;
     }
+    .info-right-image{
+        bottom:-9%;
+    }
+}
+
+@media(max-width:900px){
+    .info-left-image{
+        top:-5%;
+    }
 }
