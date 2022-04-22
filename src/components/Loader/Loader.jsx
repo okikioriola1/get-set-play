@@ -9,14 +9,14 @@ const Loader = () => {
 
     
     useEffect(()=>{
-        setTimeout(()=>setFirstWord(false),12000)
+        setTimeout(()=>setFirstWord(false),2000)
     })
     useEffect(()=>{
-        setTimeout(()=>setSecondWord(false), 12000)
+        setTimeout(()=>setSecondWord(false), 3000)
         
     },[firstWord])
     useEffect(()=>{
-        setTimeout(()=>setThirdWord(false), 12000)
+        setTimeout(()=>setThirdWord(false), 10000)
         
     },[secondWord])
     return (
@@ -30,18 +30,18 @@ const Loader = () => {
                 <div className="loader-screen-words">
                     <AnimatePresence>
 
-                  {firstWord &&(  <motion.div initial={{x:"150vw", transition:{type:"spring", duration:2}, opacity:0}}
+                  {firstWord &&(  <motion.div initial={{x:"150vw", transition:{type:"spring", duration:1}, opacity:0}}
         animate={{x:0, transition:{type:"spring", duration:2}, opacity: 1}}
         exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="get">GET</motion.div>)}
                     {secondWord&&(
                     <motion.div initial={{x:0, transition:{ duration:1.5}, opacity:0}}
-        animate={{x:0, transition:{delay:2.5, duration:2.5}, opacity:1}}
-        exit={{ x:"-150vw",  transition:{ type:"spring",duration:1.5}}} className="set">SET</motion.div>
+        animate={{x:0, transition:{delay:2, duration:1.5}, opacity:1}}
+        exit={{ x:"-150vw",  transition:{ type:"spring",duration:1}}} className="set">SET</motion.div>
         )}
         {thirdWord &&(
                     <motion.div
-                    initial={{x:"0",transition:{duration:1.5},opacity:0}}
-                    animate={{x:0, transition:{delay:5.5,duration:1.5}, opacity:1}}
+                    initial={{x:"0",transition:{duration:5.5, delay:5.5},opacity:0}}
+                    animate={{x:0, transition:{delay:6.5,duration:5.5}, opacity:1}}
                     exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="play">PLAY</motion.div>
                     )}
                     </AnimatePresence>

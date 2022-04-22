@@ -48,7 +48,7 @@ const HeroSection = () => {
                     initial="hidden"
                     animate="visible" className="hero-play">PLAY</motion.span></h1>
                     <p>A DAO-POWERED ESPORTS AND STREAMING METAVERSE</p>
-                    <button className="gsp__hero-btn">Explore</button>
+                    <motion.button whileHover={{scale:1.1}} className="gsp__hero-btn">Explore</motion.button>
                 </div>
 
             </div>

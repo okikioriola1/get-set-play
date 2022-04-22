@@ -48,3 +48,9 @@
 .advisor-header{
     padding-bottom: 3rem;
 }
+
+@media(max-width:1050px){
+    .advisor-cards{
+        flex-wrap: wrap;
+    }
+}

@@ -17,8 +17,8 @@ function App() {
 const [isPageLoaded, setIsPageLoaded] = useState(false); //this helps
 
 useEffect(() => {
-  setTimeout(()=>setIsLoaded(true), 12000)
-  // setIsLoaded(false)
+  setTimeout(()=>setIsLoaded(true), 8000)
+  // setIsLoaded(true)
     
 }, []);
 
@@ -27,6 +27,7 @@ useEffect(() => {
         setIsPageLoaded(true);
     }
 }, [isLoaded]);
+console.log(isPageLoaded)
   return (
     <div className="App">
     {

@@ -16,6 +16,7 @@
     width:100%;
 }
 
+
 .pte-header h1{
     font-family: 'TT Norms', sans-serif;
     font-style: normal;
@@ -44,4 +45,10 @@
 .card-bottom{
     display: flex;
     justify-content: center;
+}
+
+@media(max-width:1050px){
+    .play-to-earn-container{
+        padding: 4rem 20%;
+    }
 }

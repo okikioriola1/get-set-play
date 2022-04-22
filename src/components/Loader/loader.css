@@ -23,3 +23,7 @@
     letter-spacing: -0.1em;
     color: #FFFFFF;
 }
+
+.loader-screen-words{
+    display: flex;
+}

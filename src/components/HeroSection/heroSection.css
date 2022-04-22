@@ -10,6 +10,7 @@
 .hero-left-side-img{
     position: absolute;
     left: 0;
+    z-index: 0;
 }
 .gsp__hero-left-side{
     /* background: url('../../images/left-circle-bg.png');
@@ -19,6 +20,8 @@
     align-items: flex-start;
     width:30%;
     position: relative;
+    z-index: 1000
+    ;
 
 }
 
@@ -158,6 +161,24 @@
         width:100%;
         display:flex;
         justify-content: center;
+    }
+    .gsp__hero-left-side{
+        width:100%;
+    }
+    .gsp__left-side-content{
+        padding:5rem 0;
+    }
+    .controller-img{
+        width: 80%;
+        height:80%;
+
+    
+    }
+    .hero-left-side-img{
+        display: none;
+    }
+    .gsp__hero-icons{
+        display:none;
     }
 
 
