@@ -9,7 +9,7 @@ import Thomas from '../../images/Thomas.png'
 
 const TeamMembers = () => {
     return (
-        <div className="team-members-section">
+        <div className="team-members-section" id="team">
             <div className="team-members-header">
                 <h1>TEAM <span>MEMBERS</span></h1>
             </div>

@@ -8,7 +8,7 @@ import RoadMapQ4 from '../../images/road-map-q4.png'
 
 const RoadMap = () => {
     return (
-        <div className="road-map-section">
+        <div className="road-map-section" id="roadmap">
             <div className="road-map-header">
                 <h1>ROAD<span className="map">MAP</span></h1>
             </div>

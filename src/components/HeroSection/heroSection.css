@@ -104,7 +104,7 @@
     height:100%;
     object-fit: cover;
     position:relative;
-    z-index:10000;
+    z-index:1000;
 
 }
 .gsp__hero-right-side:after{
@@ -198,7 +198,12 @@
 
 }
 
+
 @media (max-width:550px){
+    .gsp__herosection{
+        padding-bottom: 0rem;
+        height:770px;
+    }
     .gsp__left-side-content{
         padding:0;
     }
@@ -212,7 +217,7 @@
 
     }
     .gsp__left-side-content p{
-        font-size: 9px;
+        font-size: 11px;
         line-height: 20px;
 
     }

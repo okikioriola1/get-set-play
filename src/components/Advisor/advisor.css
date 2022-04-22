@@ -59,4 +59,7 @@
     .advisor-content{
         padding: 5rem 0;
     }
+    .advisor-bottom-img{
+        display: none;
+    }
 }

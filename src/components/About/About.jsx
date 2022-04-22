@@ -9,7 +9,7 @@ import Player from '../../images/player.svg'
 
 const About = () => {
     return (
-        <div className="gsp__aboutsection">
+        <div className="gsp__aboutsection" id="about">
             <div className="right-img">
                 <img  src ={AboutRightImage} alt ="right" className="right-side-image"/>
                 </div>

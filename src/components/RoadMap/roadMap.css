@@ -44,4 +44,14 @@
     .road-map-main{
         flex-direction: column;
     }
+
+}
+
+@media(max-width:700px){
+    .road-header{
+        padding-top:3rem;
+    }
+    .road-map-main{
+        padding-top: 2rem;
+    }
 }
