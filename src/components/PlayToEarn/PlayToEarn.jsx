@@ -49,7 +49,7 @@ const PlayToEarn = () => {
              draggable={true}
              infinite={true}
              autoPlay={true}
-             autoPlaySpeed={2000}
+             autoPlaySpeed={5000}
              arrows={false}
              responsive={responsive}
             
@@ -68,7 +68,7 @@ const PlayToEarn = () => {
              draggable={true}
              infinite={true}
              autoPlay={true}
-             autoPlaySpeed={2000}
+             autoPlaySpeed={5000}
              arrows={false}
              responsive={responsive}
 

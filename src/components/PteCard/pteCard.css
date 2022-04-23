@@ -41,3 +41,16 @@
     text-transform: uppercase;
 
 }
+
+
+@media(max-width:500px){
+    .pte-card{
+        width:335px;
+        margin-left: 3rem;
+    }
+    .pte-card-img img{
+        width:100%;
+        height:100%;
+        object-fit: cover;
+    }
+}
