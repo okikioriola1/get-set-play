@@ -2,7 +2,7 @@ import React from 'react'
 import './roadMapCard.css'
 
 
-const RoadMapCard = ({RoadMapImage}) => {
+const RoadMapCard = ({RoadMapImage,p1,p2,p3,p4,p5}) => {
     return (
         <div className="road-map-card">
             <div className="road-map-image">
@@ -11,10 +11,11 @@ const RoadMapCard = ({RoadMapImage}) => {
             </div>
             <div className="road-map-card-list">
                 <ul>
-                    <li><p>Seed and Private Backers and Partners Onboarding</p></li>
-                    <li> <p>MVP- ArcArena P2P version - DAO based</p> </li> 
-                    <li><p>IDO launch of ARD token</p></li>
-                    <li><p>Launch of ARD Staking Pools - Vote Escrow distribution model</p></li>
+                    <li><p>{p1}</p></li>
+                    <li> <p>{p2}</p> </li> 
+                    <li><p>{p3}</p></li>
+                    <li><p>{p4}</p></li>
+                    <li><p>{p5}</p></li>
                     </ul>
             </div>
             
@@ -23,3 +24,7 @@ const RoadMapCard = ({RoadMapImage}) => {
 }
 
 export default RoadMapCard
+
+
+
+
