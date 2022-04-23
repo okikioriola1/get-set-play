@@ -16,11 +16,24 @@ import PteSandbox from '../../images/Sandbox.png'
 import PteMitra from '../../images/Mitra.png'
 import PteWanaka from '../../images/Wanaka.png'
 import PteStepHero from '../../images/Step-hero.png'
+import Slider from 'react-slick'
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
 
 const PlayToEarn = () => {
+    const settings = {
+        dots: false,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear"
+      };
     const responsive = {
         desktop: {
           breakpoint: { max: 5000, min: 1024 },
@@ -46,21 +59,27 @@ const PlayToEarn = () => {
             <div className="play-to-earn-container">
                 <div className="card-top">
                     <Carousel  swipeable={false}
+                     customTransition="all 1"
              draggable={true}
              infinite={true}
-             autoPlay={true}
-             autoPlaySpeed={5000}
+
              arrows={false}
+
              responsive={responsive}
             
              
-             keyBoardControl={true}>
+             keyBoardControl={true}> 
+
+                {/* <Slider {...settings}>*/}
+
+
                 <PteCard PteImage={PteCod} pteParagraph={"WARZONE"}/>
                 <PteCard PteImage={PteFortnite} pteParagraph={"FORTNITE"}/>
                 <PteCard PteImage={PteCs} pteParagraph={"CS-GO"}/>
                 <PteCard PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
                 <PteCard PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
                 <PteCard PteImage={PteDota} pteParagraph={"DOTA 2"}/>
+                {/* </Slider> */}
                 </Carousel>
                 </div>
                 <div className="card-bottom">
@@ -68,7 +87,7 @@ const PlayToEarn = () => {
              draggable={true}
              infinite={true}
              autoPlay={true}
-             autoPlaySpeed={5000}
+             autoPlaySpeed={50}
              arrows={false}
              responsive={responsive}
 

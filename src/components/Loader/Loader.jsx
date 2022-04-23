@@ -4,61 +4,64 @@ import LoadingGif from '../../images/loading.gif'
 import {AnimatePresence, motion} from 'framer-motion'
 
 const Loader = () => {
-    // const[firstWord, setFirstWord] = useState(true);
-    // const[secondWord, setSecondWord] = useState(true);
-    // const[thirdWord, setThirdWord] = useState(true);
+    const[firstWord, setFirstWord] = useState(true);
+    const[secondWord, setSecondWord] = useState(true);
+    const[thirdWord, setThirdWord] = useState(true);
 
     
-    // useEffect(()=>{
-    //     setTimeout(()=>setFirstWord(false),2000)
-    // })
-    // useEffect(()=>{
-    //     setTimeout(()=>setSecondWord(false), 3000)
+    useEffect(()=>{
+       const wordone= setTimeout(()=>setFirstWord(false),3000)
+       return ()=> clearTimeout(wordone)
+    })
+    useEffect(()=>{
+        const wordtwo= setTimeout(()=>setSecondWord(false), 5000)
+        return ()=> clearTimeout(wordtwo)
         
-    // },[firstWord])
-    // useEffect(()=>{
-    //     setTimeout(()=>setThirdWord(false), 10000)
+    },[])
+    useEffect(()=>{
+        const wordthree = setTimeout(()=>setThirdWord(false), 8000)
+        return ()=> clearTimeout(wordthree)
         
-    // },[secondWord])
+    },[])
     return (
         <div className="loader-screen"> 
-        <div className="loader-screen-words">
+        {/* <div className="loader-screen-words">
             <img src={LoadingGif} alt="loader"/>
         </div>
         
 
         
-    </div>
-    // <motion.div
-        // initial={{x:0, transition:{duration:1},opacity:0}}
-        // animate ={{x:0, transition:{duration:1}, opacity:1}} 
-        // exit ={{x:0, transition:{duration:1}, opacity:0}}className="loader-screen">
-        //     <div className="loader-screen-main">
-        //         <div className="loader-screen-words">
-        //             <AnimatePresence>
+    </div> */}
+    <motion.div
+         initial={{x:0, transition:{duration:1},opacity:0}}
+         animate ={{x:0, transition:{duration:1}, opacity:1}} 
+         exit ={{x:0, transition:{duration:1}, opacity:0}}className="loader-screen">
+             <div className="loader-screen-main">
+                 <div className="loader-screen-words">
+                 <AnimatePresence>
 
-        //           {firstWord &&(  <motion.div initial={{x:"150vw", transition:{type:"spring", duration:1}, opacity:0}}
-        // animate={{x:0, transition:{type:"spring", duration:2}, opacity: 1}}
-        // exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="get">GET</motion.div>)}
-        //             {secondWord&&(
-        //             <motion.div initial={{x:0, transition:{ duration:1.5}, opacity:0}}
-        // animate={{x:0, transition:{delay:2, duration:1.5}, opacity:1}}
-        // exit={{ x:"-150vw",  transition:{ type:"spring",duration:1}}} className="set">SET</motion.div>
-        // )}
-        // {thirdWord &&(
-        //             <motion.div
-        //             initial={{x:"0",transition:{duration:5.5, delay:5.5},opacity:0}}
-        //             animate={{x:0, transition:{delay:6.5,duration:5.5}, opacity:1}}
-        //             exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="play">PLAY</motion.div>
-        //             )}
-        //             </AnimatePresence>
-        //         </div>
+                   {firstWord &&(  <motion.div initial={{x:"150vw", transition:{type:"spring", duration:1}, opacity:0}}
+         animate={{x:0, transition:{type:"spring", duration:1}, opacity: 1}}
+         exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="get">GET</motion.div>)}
+                     {secondWord&&(
+                     <motion.div initial={{x:"150vw", transition:{ type:"spring",delay:3, duration:1}, opacity:0}}
+         animate={{x:0, transition:{ duration:1}, opacity:1}}
+         exit={{ x:"-150vw",  transition:{ type:"spring",duration:1}}} className="set">SET</motion.div>
+         )}
+         {thirdWord &&(
+                     <motion.div
+                     initial={{x:"150w",transition:{duration:1, delay:5},opacity:0}}
+                     animate={{x:0, transition:{duration:5}, opacity:1}}
+                     exit={{ x:"-150vw", transition:{type:"spring", duration:2.5}}} className="play">PLAY</motion.div>
+                     )}
+                    </AnimatePresence>
+                 </div>
 
-        //     </div>
+             </div>
             
-        // </motion.div>
+         </motion.div>
         
-       
+            </div>
     )
 }
 

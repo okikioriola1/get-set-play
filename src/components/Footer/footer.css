@@ -63,6 +63,7 @@
     border: 1px solid #A12669;
     box-sizing: border-box;
     border-radius: 25px;
+    padding-left: 2rem;
 }
 
 .form button{

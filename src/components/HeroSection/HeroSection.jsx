@@ -54,7 +54,7 @@ const HeroSection = () => {
                 </div>
 
             </div>
-            <div className="gsp__hero-right-side">
+            <div className="gsp__hero-right-side spin-img">
                 <img src={HeroImage} alt="hero" className="controller-img"/>
 
             </div>

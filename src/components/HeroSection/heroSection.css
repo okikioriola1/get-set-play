@@ -143,7 +143,19 @@
     width:31px;
     height:31px;
 }
+.spin-img:hover{
+    animation: shake 3s ;
 
+}
+
+@keyframes shake {
+	30% {
+		transform: rotate(20deg);
+	}
+	60% {
+		transform: rotate(-40deg);
+	}
+}
 @media (max-width:1150px){
     .gsp__herosection{
         flex-direction: column;
