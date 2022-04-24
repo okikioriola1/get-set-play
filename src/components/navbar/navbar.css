@@ -52,7 +52,7 @@
     transition: all ease-in-out 1s;
     cursor: pointer;
 }
-.gsp__hero-btn:hover{
+.nav-explore:hover{
     box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
      transform: scale(1);
 }

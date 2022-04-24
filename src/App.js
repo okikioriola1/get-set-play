@@ -11,6 +11,7 @@ import Advisor from './components/Advisor/Advisor';
 import Footer from './components/Footer/Footer';
 import RoadMap from './components/RoadMap/RoadMap';
 import Loader from './components/Loader/Loader';
+import CarouselTest from './components/CarouselTest/CarouselTest';
 
 function App() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -43,6 +44,7 @@ console.log(isPageLoaded)
       <TeamMembers/>
       <Advisor/>
       <Footer/>
+      {/* <CarouselTest/> */}
       </>
       ):(<Loader/>)
 

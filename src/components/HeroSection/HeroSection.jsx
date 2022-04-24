@@ -3,7 +3,7 @@ import './heroSection.css'
 import HeroImage from '../../images/hero-controller.png'
 
 import {FaTelegramPlane, FaInstagram} from 'react-icons/fa'
-import {RiTwitterFill} from 'react-icons/ri'
+import {RiTwitterFill, RiDiscordFill} from 'react-icons/ri'
 import HeroLeftImage from '../../images/left-circle-bg.png'
 import {motion} from 'framer-motion'
 
@@ -62,9 +62,10 @@ const HeroSection = () => {
                 <div className="gsp__hero-icon-link">
                     <ul>
                     <li><a href="#home" className="hero-icon-link"><FaInstagram/></a></li>
+                    <li><a href="#home" className="hero-icon-link"><RiDiscordFill/></a></li>
+                    <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>
                     <li><a href="#home" className="hero-icon-link"><FaTelegramPlane/></a></li>
-                    <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>
-                    <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>
+                    
                     </ul>
                     
                 </div>

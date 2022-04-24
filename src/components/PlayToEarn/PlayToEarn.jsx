@@ -19,35 +19,95 @@ import PteStepHero from '../../images/Step-hero.png'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
+
 
 
 const PlayToEarn = () => {
-    const settings = {
+    const settingsOne = {
         dots: false,
         infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
+        // slidesToShow: 1,
+        // slidesToScroll: -1,
         autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
-      };
-    const responsive = {
-        desktop: {
-          breakpoint: { max: 5000, min: 1024 },
-          items: 3
+        arrows:false,
+        speed: 1000,
+        autoplaySpeed: 1000,
+        responsive:[
+            {
+                breakpoint: 2000,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScroll:1,
+                    infinte:true,
+                    
+    
+                },
+            },
+            {
+            breakpoint: 1200,
+            settings:{
+                slidesToShow:2,
+                slidesToScroll:1,
+                infinte:true,
+                
+
+            },
         },
-        tablet: {
-          breakpoint: { max: 1024, min: 0 },
-        //   items: 1
-        // },
-        // mobile: {
-        //   breakpoint: { max: 464, min: 0 },
-          items: 1
-        }
+        {
+            breakpoint:1050,
+            settings:{
+                slideToShow:1,
+                slideToScroll:1,
+                infinte:true,
+                
+            },
+        },
+    ],
+        
       };
+      const settingsTwo = {
+        dots: false,
+        infinite: true,
+        // slidesToShow: 1,
+        // slidesToScroll: -1,
+        autoplay: true,
+        arrows:false,
+        speed: 1000,
+        autoplaySpeed: 1000,
+        responsive:[
+            {
+                breakpoint: 2000,
+                settings:{
+                    slidesToShow:3,
+                    slidesToScroll:-1,
+                    infinte:true,
+                    
+    
+                },
+            },
+            {
+            breakpoint: 1200,
+            settings:{
+                slidesToShow:2,
+                slidesToScroll:-1,
+                infinte:true,
+                
+
+            },
+        },
+        {
+            breakpoint:1050,
+            settings:{
+                slideToShow:1,
+                slideToScroll:-1,
+                infinte:true,
+                
+            },
+        },
+    ],
+        
+      };
+
     return (
         <div className="play-to-earn-section">
             <div className="pte-right-img">
@@ -58,21 +118,8 @@ const PlayToEarn = () => {
             </div>
             <div className="play-to-earn-container">
                 <div className="card-top">
-                    <Carousel  swipeable={false}
-                    
-             draggable={true}
-             infinite={true}
-             autoPlay={true}
-             autoPlaySpeed={700}
-
-             arrows={false}
-
-             responsive={responsive}
-            
-             
-             keyBoardControl={true}> 
-
-                {/* <Slider {...settings}>*/}
+                
+                <Slider {...settingsOne}>
 
 
                 <PteCard fota ={false} PteImage={PteCod} pteParagraph={"WARZONE"}/>
@@ -81,21 +128,13 @@ const PlayToEarn = () => {
                 <PteCard fota ={false} PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
                 <PteCard fota ={false} PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
                 <PteCard fota ={false} PteImage={PteDota} pteParagraph={"DOTA 2"}/>
-                {/* </Slider> */}
-                </Carousel>
+                </Slider>
+               
+                
                 </div>
                 <div className="card-bottom">
-                    <Carousel  swipeable={false}
-             draggable={true}
-             infinite={true}
-             autoPlay={true}
-             autoPlaySpeed={700}
-             arrows={false}
-             responsive={responsive}
 
-            
-             
-             keyBoardControl={true}>
+             <Slider {...settingsTwo}>
 
                     <PteCard fota ={false} PteImage={PteFaraland} pteParagraph={"Faraland"}/>
                     <PteCard fota ={true} PteImage={PteFota} pteParagraph={"Fota"}/>
@@ -103,7 +142,8 @@ const PlayToEarn = () => {
                     <PteCard fota ={false} PteImage={PteMitra} pteParagraph={"LEAGUE OF MITRA"}/>
                     <PteCard fota ={false} PteImage={PteWanaka} pteParagraph={"Wanaka farm"}/>
                     <PteCard fota ={false} PteImage={PteStepHero} pteParagraph={"Step Hero"}/>
-                </Carousel>
+                    </Slider>
+               
                 </div>
             </div>
             <div className="pte-left-img">
