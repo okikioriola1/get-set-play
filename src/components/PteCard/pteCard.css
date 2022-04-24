@@ -17,6 +17,11 @@
 .pte-card-img img{
     object-fit: cover;
 }
+.fota{
+    width:500px;
+    height: 400px;
+    object-fit: cover;
+}
 
 .pte-card-img img:nth-child(3){
     width: 500px;

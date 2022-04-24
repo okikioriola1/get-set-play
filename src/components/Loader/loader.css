@@ -12,9 +12,9 @@
 }
 
 
-.get,
-.set,
-.play{
+.get h1,
+.set h1,
+.play h1{
     font-family: 'TT Norms',sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -23,7 +23,31 @@
     letter-spacing: -0.1em;
     color: #FFFFFF;
 }
-
+.loader-screen-main{
+    width:90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .loader-screen-words{
     display: flex;
+    width:100%;
+}
+
+.get{
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    
+}
+.set{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.play{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
 }

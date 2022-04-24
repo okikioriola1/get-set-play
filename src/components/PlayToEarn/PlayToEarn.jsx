@@ -59,9 +59,11 @@ const PlayToEarn = () => {
             <div className="play-to-earn-container">
                 <div className="card-top">
                     <Carousel  swipeable={false}
-                     customTransition="all 1"
+                    
              draggable={true}
              infinite={true}
+             autoPlay={true}
+             autoPlaySpeed={700}
 
              arrows={false}
 
@@ -73,12 +75,12 @@ const PlayToEarn = () => {
                 {/* <Slider {...settings}>*/}
 
 
-                <PteCard PteImage={PteCod} pteParagraph={"WARZONE"}/>
-                <PteCard PteImage={PteFortnite} pteParagraph={"FORTNITE"}/>
-                <PteCard PteImage={PteCs} pteParagraph={"CS-GO"}/>
-                <PteCard PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
-                <PteCard PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
-                <PteCard PteImage={PteDota} pteParagraph={"DOTA 2"}/>
+                <PteCard fota ={false} PteImage={PteCod} pteParagraph={"WARZONE"}/>
+                <PteCard fota ={false} PteImage={PteFortnite} pteParagraph={"FORTNITE"}/>
+                <PteCard fota ={false} PteImage={PteCs} pteParagraph={"CS-GO"}/>
+                <PteCard fota ={false} PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
+                <PteCard fota ={false} PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
+                <PteCard fota ={false} PteImage={PteDota} pteParagraph={"DOTA 2"}/>
                 {/* </Slider> */}
                 </Carousel>
                 </div>
@@ -87,7 +89,7 @@ const PlayToEarn = () => {
              draggable={true}
              infinite={true}
              autoPlay={true}
-             autoPlaySpeed={50}
+             autoPlaySpeed={700}
              arrows={false}
              responsive={responsive}
 
@@ -95,12 +97,12 @@ const PlayToEarn = () => {
              
              keyBoardControl={true}>
 
-                    <PteCard PteImage={PteFaraland} pteParagraph={"Faraland"}/>
-                    <PteCard PteImage={PteFota} pteParagraph={"Fota"}/>
-                    <PteCard PteImage={PteSandbox} pteParagraph={"Sandbox"}/>
-                    <PteCard PteImage={PteMitra} pteParagraph={"LEAGUE OF MITRA"}/>
-                    <PteCard PteImage={PteWanaka} pteParagraph={"Wanaka farm"}/>
-                    <PteCard PteImage={PteStepHero} pteParagraph={"Step Hero"}/>
+                    <PteCard fota ={false} PteImage={PteFaraland} pteParagraph={"Faraland"}/>
+                    <PteCard fota ={true} PteImage={PteFota} pteParagraph={"Fota"}/>
+                    <PteCard fota ={false} PteImage={PteSandbox} pteParagraph={"Sandbox"}/>
+                    <PteCard fota ={false} PteImage={PteMitra} pteParagraph={"LEAGUE OF MITRA"}/>
+                    <PteCard fota ={false} PteImage={PteWanaka} pteParagraph={"Wanaka farm"}/>
+                    <PteCard fota ={false} PteImage={PteStepHero} pteParagraph={"Step Hero"}/>
                 </Carousel>
                 </div>
             </div>
