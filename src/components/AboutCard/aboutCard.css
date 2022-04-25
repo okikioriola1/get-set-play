@@ -11,15 +11,17 @@
 
 
 .blur-part{
-    background:radial-gradient(ellipse at 50% 6%, rgba(208, 173, 217, 1) 0%, rgba(90, 79, 130, 1) 47%, rgba(0, 0, 0, 1) 100%);
-    filter: blur(27px);
-    width: 376px;
+    background: radial-gradient(ellipse at 43% 0%, rgba(208, 173, 217, 1) 0%, rgba(90, 79, 130, 1) 13%, rgba(0, 0, 0, 1) 100%);
+    filter: blur(17px);
+    width: 331px;
     height: 64px;
 
 }
 .card-text{
     width:94%;
     padding-left: 4rem;
+    position: relative;
+    z-index:10;
 }
 .highFont{
     font-family: 'Arial';

@@ -11,16 +11,16 @@ const Loader = () => {
     const [showWord, setShowWord] = useState(0);
     
     useEffect(()=>{
-       const wordone= setTimeout(()=>setShowWord(1),2000)
+       const wordone= setTimeout(()=>setShowWord(1),3000)
        return ()=> clearTimeout(wordone)
     },[])
     useEffect(()=>{
-        const wordtwo= setTimeout(()=>setShowWord(2), 4000)
+        const wordtwo= setTimeout(()=>setShowWord(2), 5000)
         return ()=> clearTimeout(wordtwo)
         
     },[])
     // useEffect(()=>{
-    //     const wordthree = setTimeout(()=>setThirdWord(false), 8000)
+    //     const wordthree = setTimeout(()=>setShowWord(2), 8000)
     //     return ()=> clearTimeout(wordthree)
         
     // },[])
@@ -35,10 +35,11 @@ const Loader = () => {
                  <div className="loader-screen-words">
                  <AnimatePresence>
                      {showWord=== 0 ? (
+                         
 
                      <motion.div className="get"><h1>GET</h1></motion.div>): 
          
-         
+                        
          showWord===1?(
                      
                      <motion.div className="set"><h1>SET</h1></motion.div>
@@ -46,7 +47,7 @@ const Loader = () => {
          ): (
        
          
-                     <motion.div className="play"><h1>PLAY</h1></motion.div>
+                     <motion.div exit ={{x:"-150vw", transition:{duration:1.5}}} className="play"><h1>PLAY</h1></motion.div>
                      )}
                      
                     </AnimatePresence>

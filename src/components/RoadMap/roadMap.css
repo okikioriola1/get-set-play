@@ -31,6 +31,7 @@
 }
 
 .road-header h1{
+    
     font-family: 'TT Norms', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -39,9 +40,16 @@
     letter-spacing: -0.1em;
     color: #6D4CD5;
 }
-
+@media(max-width:1500px){
+    .road-header h1{
+        padding-left: 11rem;
+    }
+}
 
 @media(max-width:1050px){
+    .road-header h1{
+        padding-left: 0rem;
+    }
     .road-map-main{
         flex-direction: column;
     }

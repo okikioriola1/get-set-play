@@ -83,6 +83,9 @@
 
 
 @media(max-width:1500px){
+    .token-container{
+        justify-content: center;
+    }
     .token-text-content{
         padding: 2rem 6rem;
     }

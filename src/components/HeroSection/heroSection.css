@@ -167,12 +167,14 @@
     .gsp__herosection{
         height:770px;
         padding-bottom:6rem;
+        padding-right: 4rem;
     }
     .gsp__left-side-content{
         padding-left:5rem;
     }
     .gsp__hero-left-side{
         width:35%;
+        padding-left:4rem;
     }
     .gsp__hero-right-side{
         width:65%;
