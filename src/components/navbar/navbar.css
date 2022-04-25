@@ -30,9 +30,12 @@
     color: #FFFFFF;
     padding: 0 2rem;
     text-transform: uppercase;
+    height:100%;
+
     width:18%;
     display: flex;
     justify-content: center;
+    align-items:center;
 }
 
 .gsp__nav-links p:hover{

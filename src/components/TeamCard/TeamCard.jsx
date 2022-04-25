@@ -5,12 +5,12 @@ import TeamLinkedin from '../../images/team-card-linkedin.svg'
 
 
 
-const TeamCard = ({ProfileImage, profileHeader, profilePosition, memberDescription}) => {
+const TeamCard = ({ProfileImage, profileHeader, profilePosition, memberDescription, link}) => {
     return (
         <div className="team-card">
             <div className="team-linkedin">
                 <div className="team-linkedin-icon">
-                <img src={TeamLinkedin} alt="linkedin"/>
+                <a href={link}><img src={TeamLinkedin} alt="linkedin"/></a>
                 </div>
 
 
