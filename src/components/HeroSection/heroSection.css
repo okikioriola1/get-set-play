@@ -110,7 +110,7 @@
     height:100%;
     object-fit: cover;
     position:relative;
-    z-index:1000;
+    z-index:100;
 
 }
 .gsp__hero-right-side:after{

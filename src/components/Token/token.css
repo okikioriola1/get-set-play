@@ -84,10 +84,13 @@
 
 @media(max-width:1500px){
     .token-text-content{
-        padding: 2rem 0;
+        padding: 2rem 6rem;
     }
     .token-text{
-        width:44%;
+        width:55%;
+    }
+    .token-img{
+        padding-left: 7rem;
     }
 }
 

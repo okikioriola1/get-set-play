@@ -79,7 +79,11 @@
 .getsetplay{
     font-weight: 700;
 }
-
+@media(max-width:1500px){
+    .left-img{
+        height:300px;
+    }
+}
 
 @media(max-width:1150px){
     .about-cards{
