@@ -2,7 +2,7 @@ import React from 'react'
 import './aboutCard.css'
 
 
-const AboutCard = ({aboutImage, headerText, paragraph, up}) => {
+const AboutCard = ({aboutImage, headerText, paragraph, up, font}) => {
     return (
         <div className="about-card">
             <div className={`${up? 'rotate' : 'rotate-inverse'} image-part `}>
@@ -10,7 +10,7 @@ const AboutCard = ({aboutImage, headerText, paragraph, up}) => {
             </div>
             <div className="blur-part"></div>
             <div className="card-text">
-                <h1>{headerText}</h1>
+                <h1 className={font? 'highFont':'lowFont'}>{headerText}</h1>
                 <p>{paragraph}.</p>
             </div>
             

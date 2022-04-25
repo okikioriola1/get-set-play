@@ -21,15 +21,25 @@
     width:94%;
     padding-left: 4rem;
 }
-.card-text h1{
+.highFont{
     font-family: 'Arial';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 30px;
     color: #FFFFFF;
-    /* padding: 1.5rem 0; */
+
 }
+.lowFont{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
 .card-text p{
     font-family: 'Arial';
     font-style: normal;
