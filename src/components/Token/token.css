@@ -92,6 +92,10 @@
     .token-img{
         padding-left: 7rem;
     }
+    .token-bg-img{
+        height:636px;
+        top:35%;
+    }
 }
 
 @media(max-width: 1000px){
