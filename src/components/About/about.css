@@ -81,7 +81,7 @@
 }
 
 
-@media(max-width:1050px){
+@media(max-width:1150px){
     .about-cards{
         flex-direction: column;
         align-items: center;

@@ -6,12 +6,12 @@ const Navbar = () => {
 
     const Menu =()=>(
         <>
-     <p><a href="#home">Home</a></p>
+     {/* <p><a href="#home">Home</a></p> */}
      <p><a href="#about">About</a></p>
      <p><a href="#token">Play to Earn</a></p>
      <p><a href="#roadmap">Roadmap</a></p>
      <p><a href="#team">Team</a></p>
-     <button className="nav-explore">Explore</button>
+     <button className="nav-explore"><a href="">Whitepaper</a></button>
         </>
     )
     const [toggleMenu, setToggleMenu] = useState(false)

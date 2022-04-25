@@ -1,6 +1,7 @@
 import React from 'react'
 import './heroSection.css'
 import HeroImage from '../../images/hero-controller.png'
+import {AiFillLinkedin} from 'react-icons/ai'
 
 import {FaTelegramPlane, FaInstagram} from 'react-icons/fa'
 import {RiTwitterFill, RiDiscordFill} from 'react-icons/ri'
@@ -14,7 +15,7 @@ const HeroSection = () => {
         },
         visible: {
           opacity: 1,
-          transition: { delay: 0, duration: 2.5, ease: "easeInOut" },
+          transition: { delay: 0, duration: 1.5, ease: "easeInOut" },
         },
       };
       const SecondwordMotion = {
@@ -23,7 +24,7 @@ const HeroSection = () => {
         },
         visible: {
           opacity: 1,
-          transition: { delay: 0, duration: 3.5, ease: "easeInOut" },
+          transition: { delay: 2, duration: 1.5, ease: "easeInOut" },
         },
       };
       const ThirdwordMotion = {
@@ -32,7 +33,7 @@ const HeroSection = () => {
         },
         visible: {
           opacity: 1,
-          transition: { delay: 0, duration: 4.5, ease: "easeInOut" },
+          transition: { delay: 3, duration: 1.5, ease: "easeInOut" },
         },
       };
     return (
@@ -49,22 +50,22 @@ const HeroSection = () => {
                     animate="visible" className="hero-play">PLAY</motion.span></h1>
                     <p>A DAO-POWERED ESPORTS AND STREAMING METAVERSE</p>
                     <div className="hero-button">
-                    <motion.button whileHover={{scale:1.1}} className="gsp__hero-btn">Explore</motion.button>
+                    <button whileHover={{scale:1.1}} className="gsp__hero-btn">Contact</button>
                     </div>
                 </div>
 
             </div>
-            <div className="gsp__hero-right-side spin-img">
-                <img src={HeroImage} alt="hero" className="controller-img"/>
+            <div className="gsp__hero-right-side ">
+                <img src={HeroImage} alt="hero" className="controller-img spin-img"/>
 
             </div>
             <div className="gsp__hero-icons">
                 <div className="gsp__hero-icon-link">
                     <ul>
-                    <li><a href="#home" className="hero-icon-link"><FaInstagram/></a></li>
-                    <li><a href="#home" className="hero-icon-link"><RiDiscordFill/></a></li>
-                    <li><a href="#home" className="hero-icon-link"><RiTwitterFill/></a></li>
-                    <li><a href="#home" className="hero-icon-link"><FaTelegramPlane/></a></li>
+                    <li><a href="https://linkedin.com/company/arcader " className="hero-icon-link"><AiFillLinkedin/></a></li>
+                    <li><a href="https://discord.com/invite/jHxU6tMMPE " className="hero-icon-link"><RiDiscordFill/></a></li>
+                    <li><a href="https://mobile.twitter.com/getsetplay_io " className="hero-icon-link"><RiTwitterFill/></a></li>
+                    <li><a href="https://t.me/getsetplayio " className="hero-icon-link"><FaTelegramPlane/></a></li>
                     
                     </ul>
                     

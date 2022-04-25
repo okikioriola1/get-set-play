@@ -5,6 +5,7 @@
     border-radius: 2rem;
     margin-left: 7rem;
     padding:0 1.5rem;
+    transition: ease-in-out 1s;
 }
 
 .rectangular-bar{
@@ -125,6 +126,15 @@
     outline: none;
     position: relative;
     z-index: 1000;
+    
+}
+.team-card:hover{    
+        box-shadow: 2px 3px 32px 20px  rgba(38, 29, 160, 0.9) ;
+        border: 5px solid #29afe2;
+        transform: scale(1);
+    
+    
+   
 }
 
 

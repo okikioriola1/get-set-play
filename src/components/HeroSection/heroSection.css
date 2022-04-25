@@ -3,7 +3,7 @@
     background-color: #111111;
     padding-top: 3rem;
     padding-bottom:13rem;
-    height:1014px;
+    height:800px;
     position: relative;
     
 }
@@ -21,8 +21,7 @@
     align-items: flex-start;
     width:30%;
     position: relative;
-    z-index: 1000
-    ;
+    z-index: 1000;
 
 }
 
@@ -30,7 +29,7 @@
     font-family: 'TT Norms', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 70px;
+    font-size: 90px;
     line-height: 90px;
     letter-spacing: -0.1em;
     color: #FFFFFF;
@@ -51,6 +50,10 @@
 }
 .gsp__left-side-content{
     padding:10rem 0;
+}
+.hero-button{
+    position: relative;
+    z-index: 100000;
 }
 
 .gsp__hero-btn{
@@ -157,9 +160,29 @@
 		transform: rotate(-40deg);
 	}
 }
+
+@media(max-width:1500px){
+    .gsp__herosection{
+        height:770px;
+        padding-bottom:6rem;
+    }
+    .gsp__left-side-content{
+        padding-left:5rem;
+    }
+    .gsp__hero-left-side{
+        width:35%;
+    }
+    .gsp__hero-right-side{
+        width:65%;
+    }
+    .hero-left-side-img{
+        width:80%;
+    }
+}
 @media (max-width:1150px){
     .gsp__herosection{
         flex-direction: column;
+        height: 1020px;
     }
     .gsp__hero-icon-link ul{
         display: flex;   

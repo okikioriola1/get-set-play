@@ -40,7 +40,7 @@ const PlayToEarn = () => {
                     slidesToShow:3,
                     slidesToScroll:1,
                     infinte:true,
-                    
+                    cssEase: "linear",
     
                 },
             },
@@ -50,6 +50,7 @@ const PlayToEarn = () => {
                 slidesToShow:2,
                 slidesToScroll:1,
                 infinte:true,
+                cssEase: "linear",
                 
 
             },
@@ -60,7 +61,7 @@ const PlayToEarn = () => {
                 slideToShow:1,
                 slideToScroll:1,
                 infinte:true,
-                
+                cssEase: "linear",
             },
         },
     ],
@@ -83,6 +84,7 @@ const PlayToEarn = () => {
                     slidesToShow:3,
                     slidesToScroll:-1,
                     infinte:true,
+                    cssEase: "linear",
                     
     
                 },
@@ -93,7 +95,7 @@ const PlayToEarn = () => {
                 slidesToShow:2,
                 slidesToScroll:-1,
                 infinte:true,
-                
+                cssEase: "linear",
 
             },
         },
@@ -103,7 +105,7 @@ const PlayToEarn = () => {
                 slideToShow:1,
                 slideToScroll:-1,
                 infinte:true,
-                
+                cssEase: "linear",
             },
         },
     ],

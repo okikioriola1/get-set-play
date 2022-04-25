@@ -21,7 +21,8 @@
 .road-map-main{
     display: flex;
     justify-content: space-around;
-    padding-top: 7rem;
+    /* padding-top: 7rem; */
+    padding: 7rem 4rem;
 }
 .road-header{
     display: flex;
