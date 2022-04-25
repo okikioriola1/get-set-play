@@ -7,10 +7,12 @@ const ContactModal = () => {
         <div className="contact-modal-page">
             <div className="contact-modal-section">
                 <div className="contact-form">
-                    <form>
-                        <input type="text" placeholder="name"/>
-                        <input type="text" placeholder="name"/>
-                        <input type="text" placeholder="name"/>
+                    <form className="modal-form">
+                        <input type="text" placeholder="Name"/>
+                        <input type="text" placeholder="Tg name"/>
+                        <input type="text" placeholder="Email"/>
+                        <textarea></textarea>
+                        <button>Submit</button>
                     </form>
                 </div>
             </div>

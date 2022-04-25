@@ -41,7 +41,7 @@
     font-family: 'Arial';
     font-style: normal;
     font-weight: 700;
-    font-size: 12px;
+    font-size: 18px;
     line-height: 28px;
     color: #FFFFFF;
     padding-bottom: 2rem;
@@ -75,10 +75,11 @@
     cursor: pointer;
     z-index:10000;
     text-transform: capitalize;
+    box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
 }
 
 .gsp__hero-btn:hover{
-    box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
+    
      transform: scale(1);
 }
 .hero-get{

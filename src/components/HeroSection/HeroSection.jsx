@@ -7,6 +7,7 @@ import {FaTelegramPlane, FaInstagram} from 'react-icons/fa'
 import {RiTwitterFill, RiDiscordFill} from 'react-icons/ri'
 import HeroLeftImage from '../../images/left-circle-bg.png'
 import {motion} from 'framer-motion'
+import ContactModal from '../ContactModal/ContactModal'
 
 const HeroSection = () => {
     const FirstwordMotion = {
@@ -52,6 +53,7 @@ const HeroSection = () => {
                     <div className="hero-button">
                     <button whileHover={{scale:1.1}} className="gsp__hero-btn">CONTACT</button>
                     </div>
+                    {/* <ContactModal/> */}
                 </div>
 
             </div>

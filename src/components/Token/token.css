@@ -76,11 +76,20 @@
 .token-bg-img{
     position: absolute;
     position: absolute;
-    top: 37px;
-    height: 843px;
+    top: 293px;
+    height: 664px;
     width: 100%;
 }
 
+
+@media(max-width:1500px){
+    .token-text-content{
+        padding: 2rem 0;
+    }
+    .token-text{
+        width:44%;
+    }
+}
 
 @media(max-width: 1000px){
     .token-text-content{

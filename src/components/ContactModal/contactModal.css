@@ -1,0 +1,22 @@
+.contact-modal-page{
+    align-items: center;
+    background: #36363680;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    z-index: 100000;
+}
+
+.contact-modal-section{
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(82 82 82 / 50%);
+    margin: auto;
+    max-width: 900px;
+    min-height: 50px;
+    padding: 1rem 0;
+    width: 100%;
+}
