@@ -69,6 +69,8 @@
     }
 .token-img{
     padding-left: 14rem;
+    display: flex;
+    align-items: center;
 }
 
 .token-bg-img{

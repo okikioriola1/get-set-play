@@ -14,7 +14,7 @@
     background:radial-gradient(ellipse at 50% 6%, rgba(208, 173, 217, 1) 0%, rgba(90, 79, 130, 1) 47%, rgba(0, 0, 0, 1) 100%);
     filter: blur(27px);
     width: 376px;
-    height: 77px;
+    height: 64px;
 
 }
 .card-text{
@@ -28,7 +28,7 @@
     font-size: 25px;
     line-height: 30px;
     color: #FFFFFF;
-    padding: 1.5rem 0;
+    /* padding: 1.5rem 0; */
 }
 .card-text p{
     font-family: 'Arial';
