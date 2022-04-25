@@ -74,6 +74,7 @@
     transition: all ease-in-out 1s;
     cursor: pointer;
     z-index:10000;
+    text-transform: capitalize;
 }
 
 .gsp__hero-btn:hover{
