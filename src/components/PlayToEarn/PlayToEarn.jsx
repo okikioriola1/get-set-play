@@ -30,8 +30,9 @@ const PlayToEarn = () => {
         // slidesToScroll: -1,
         autoplay: true,
         arrows:false,
-        speed: 1500,
-        autoplaySpeed: 0,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
         responsive:[
             {
                 breakpoint: 2000,
@@ -72,8 +73,9 @@ const PlayToEarn = () => {
         // slidesToScroll: -1,
         autoplay: true,
         arrows:false,
-        speed: 1500,
-        autoplaySpeed: 0,
+        speed: 2000,
+        autoplaySpeed: 2000,
+        cssEase: "linear",
         responsive:[
             {
                 breakpoint: 2000,
