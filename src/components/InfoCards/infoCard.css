@@ -13,8 +13,23 @@
 .info-card:hover{
     box-shadow: 2px 3px 32px 20px  rgba(38, 29, 160, 0.9) ;
     border: 5px solid #29afe2;
+    transform: scale(1.1);
 
 
+}
+.info-card:hover >.info-image-part img{
+    animation: tilt 3s;
+
+    
+}
+
+@keyframes tilt {
+    40% {
+        transform: rotate(20deg);
+    }
+    80% {
+        transform: rotate(-7deg);
+    }
 }
 
 

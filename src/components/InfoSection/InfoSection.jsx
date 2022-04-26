@@ -8,16 +8,19 @@ import InfoPhone from '../../images/info-phone.svg'
 import InfoGame from '../../images/info-game.svg'
 import InfoPeople from '../../images/info-people.svg'
 import InfoVirus from '../../images/info-virus.svg'
+import Fade from 'react-reveal'
 import {motion} from 'framer-motion'
 
 
 const InfoSection = () => {
     return (
         <div className="info-section">
+            <Fade right cascade={true}>
             <motion.div className="info-left-image">
                 <img src={InfoLeftImage} className="info-img" alt="infoLeft"/>
 
             </motion.div>
+            </Fade>
             <div className="info-section-container">
                 <div className="info-card-top">
                 <InfoCard header={"Easy to access "} paragraph={"Players from all over the world can access our desktop client and use either USDT, BTC, ETH or ARD to deposit or withdraw from their Arcader account from anywhere in the world."} InfoImage={InfoHands}/>
@@ -31,10 +34,12 @@ const InfoSection = () => {
 
 
             </div>
+            <Fade left cascade={true}>
             <motion.div className="info-right-image">
                 <img src={InfoRightImage} className="info-img" alt="infoLeft"/>
 
             </motion.div>
+            </Fade>
             
         </div>
     )
