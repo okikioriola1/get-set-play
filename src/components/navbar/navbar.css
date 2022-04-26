@@ -117,13 +117,13 @@
 }
 
 
-@media(max-width:1400px){
+@media(max-width:1500px){
     .gsp__nav-links{
         width:100%
     }
     .gsp__nav-links p{
         padding:0;
-        font-size:18px;
+        font-size:16px;
     }
 }
 

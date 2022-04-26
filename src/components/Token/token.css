@@ -102,9 +102,12 @@
     }
 }
 
-@media(max-width: 1000px){
+@media(max-width: 1150px){
     .token-text-content{
-        padding: 2rem 2rem;
+        padding: 2rem 1rem;
+    }
+    .token-img{
+        padding-right:1rem;
     }
 
 }
@@ -126,6 +129,13 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    .token-img img{
+        width:300px;
+        height:350px;
+    }
+    .token-img{
+        padding-right: 0;
     }
 }
 

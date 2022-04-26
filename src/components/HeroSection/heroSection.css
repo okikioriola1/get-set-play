@@ -159,7 +159,7 @@
 		transform: rotate(20deg);
 	}
 	60% {
-		transform: rotate(-40deg);
+		transform: rotate(-10deg);
 	}
 }
 
@@ -181,6 +181,13 @@
     }
     .hero-left-side-img{
         width:80%;
+    }
+    .gsp__hero-right-side{
+        padding-left:11rem;
+    }
+    .controller-img {
+        width: 85%;
+        height: 76%;
     }
 }
 @media (max-width:1150px){

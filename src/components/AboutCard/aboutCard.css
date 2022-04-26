@@ -22,6 +22,10 @@
     padding-left: 4rem;
     position: relative;
     z-index:10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .highFont{
     font-family: 'Arial';
@@ -39,6 +43,7 @@
     font-size: 28px;
     line-height: 30px;
     color: #FFFFFF;
+    padding-bottom: 1rem;
 
 }
 
@@ -48,7 +53,8 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 18px;
-     color: #E7E9FF8F;
+    color: #E7E9FF8F;
+    text-align: center;
 }
 .image-part{
     display: flex;
