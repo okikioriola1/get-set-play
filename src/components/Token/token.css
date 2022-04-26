@@ -85,10 +85,10 @@
     content: '';
     position: absolute;
     background: radial-gradient(circle, rgb(55 23 88) 25%, #111111 63%);
-    width: 35%;
+    width: 45%;
     height: 107px;
-    filter: blur(53px);
-    bottom: -104px;
+    filter: blur(35px);
+    bottom: -60%;
     left: 0;
 }
 
