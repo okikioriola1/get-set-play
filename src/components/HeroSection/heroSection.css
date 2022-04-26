@@ -149,10 +149,7 @@
     width:31px;
     height:31px;
 }
-.spin-img:hover{
-    animation: shake 5s ;
 
-}
 
 @keyframes shake {
 	30% {
@@ -183,10 +180,10 @@
         width:80%;
     }
     .gsp__hero-right-side{
-        padding-left:6rem;
+        padding-left:9rem;
     }
     .controller-img {
-        width: 85%;
+        width: 96%;
         height: 76%;
     }
 }

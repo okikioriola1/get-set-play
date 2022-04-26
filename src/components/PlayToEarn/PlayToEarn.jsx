@@ -16,6 +16,16 @@ import PteSandbox from '../../images/pte-sanbox.png'
 import PteMitra from '../../images/pte-mitra.png'
 import PteWanaka from '../../images/pte-wanaka.png'
 import PteStepHero from '../../images/pte-step.png'
+import PteApex from '../../images/pte-apex.png'
+import PteFifa from '../../images/pte-fifa.png'
+import PteMinecraft from '../../images/pte-minecraft.png'
+import PteNfl from '../../images/pte-nfl.png'
+import PteOverwatch from '../../images/pte-overwatch.png'
+import PteThetan from '../../images/pte-thetan.png'
+import PteSplinterland from '../../images/pte-splinterland.png'
+import PteAlien from '../../images/pte-alien.png'
+import PteUnchained from '../../images/pte-unchained.png'
+import PteAlong from '../../images/pte-along.png'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -132,6 +142,13 @@ const PlayToEarn = () => {
                 <PteCard fota ={false} PteImage={PteLol} pteParagraph={"LEAGUE OF LEGENDS"}/>
                 <PteCard fota ={false} PteImage={PteRainbow} pteParagraph={"RAINBOW 6"}/>
                 <PteCard fota ={false} PteImage={PteDota} pteParagraph={"DOTA 2"}/>
+                <PteCard fota ={false} PteImage={PteApex} pteParagraph={"APEX LEGENDS"}/>
+                <PteCard fota ={false} PteImage={PteFifa} pteParagraph={"FIFA 22"}/>
+                <PteCard fota ={false} PteImage={PteMinecraft} pteParagraph={"MINECRAFT"}/>
+                <PteCard fota ={false} PteImage={PteNfl} pteParagraph={"NFL 22"}/>
+                <PteCard fota ={false} PteImage={PteOverwatch} pteParagraph={"OVERWATCH 2"}/>
+                
+               
                 </Slider>
                
                 
@@ -146,6 +163,11 @@ const PlayToEarn = () => {
                     <PteCard fota ={false} PteImage={PteMitra} pteParagraph={"LEAGUE OF MITRA"}/>
                     <PteCard fota ={false} PteImage={PteWanaka} pteParagraph={"Wanaka farm"}/>
                     <PteCard fota ={false} PteImage={PteStepHero} pteParagraph={"Step Hero"}/>
+                    <PteCard fota ={false} PteImage={PteThetan} pteParagraph={"Thetan Arena"}/>
+                    <PteCard fota ={false} PteImage={PteSplinterland} pteParagraph={"SPLINTERLAND"}/>
+                    <PteCard fota ={false} PteImage={PteAlien} pteParagraph={"ALIEN WORLDS"}/>
+                    <PteCard fota ={false} PteImage={PteUnchained} pteParagraph={"GODS UNCHAINED"}/>
+                    <PteCard fota ={false} PteImage={PteAlong} pteParagraph={"ALONG WITH THE GODS"}/>
                     </Slider>
                
                 </div>
