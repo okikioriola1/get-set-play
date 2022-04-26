@@ -34,7 +34,7 @@
 
 .play-to-earn-container{
     background: radial-gradient(circle, rgba(60,25,96,1) 2%, rgba(8,6,10,1) 38%);
-    padding: 4rem 2rem;
+    padding: 4rem 0;
    
 }
 .card-top{
@@ -50,7 +50,7 @@
 
 @media(max-width:1050px){
     .play-to-earn-container{
-        padding: 4rem 20%;
+        padding: 4rem 15%;
     }
 }
 

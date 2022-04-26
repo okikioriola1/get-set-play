@@ -64,7 +64,7 @@
     cursor: pointer;
 }
 .nav-explore:hover{
-    box-shadow: 2px 3px 32px 20px rgba(172, 111, 247, 0.9) ;
+    box-shadow: 2px 3px 26px 13px rgba(172, 111, 247, 0.9) ;
      transform: scale(1);
 }
 
