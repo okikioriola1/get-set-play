@@ -111,6 +111,12 @@
 	}
   }
 
+  @media(max-width:1500px){
+      .card-text{
+          padding-left: 0rem;
+      }
+  }
+
 @media(max-width:590px){
     .about-card{
         width:100%;
