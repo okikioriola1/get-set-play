@@ -1,29 +1,30 @@
 .pte-card{
     background-image: url('../../images/pte-card-bg.png');
     background-repeat: no-repeat;
-    width:424px;
-    height: 540px;
+    background-position: center;
+    width: 347.68px;
+    height: 393.43px;
     
-    margin-left: 5rem;
+    margin-left: 2rem;
 }
 
 .pte-card-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 300px;
-    height: 400px;
+    width: 280px;
+    height: 300px;
 }
 .pte-card-img img{
     object-fit: cover;
 }
 .fota{
-    width:500px;
-    height: 400px;
+    width:290px;
+    height: 300px;
     object-fit: cover;
 }
 
-.pte-card-img img:nth-child(3){
+/* .pte-card-img img:nth-child(3){
     width: 500px;
     height: 480px;
     margin-top: 4rem;
@@ -32,14 +33,14 @@
 .pte-card-img img:nth-last-child(){
     width: 514px;
     margin-top: 2rem;
-}
+} */
 
 .pte-card-text p{
     font-family: 'TT Norms', 'Arial';
     font-style: normal;
     font-weight: 500;
-    font-size: 30px;
-    line-height: 39px;
+    font-size: 18px;
+    line-height: 21px;
     text-align: center;
     letter-spacing: -0.05em;
     color: #FFFFFF;

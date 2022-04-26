@@ -10,12 +10,12 @@ import PteCs from '../../images/pte-cs.png'
 import PteLol from '../../images/pte-lol.png'
 import PteRainbow from '../../images/pte-rainbow.png'
 import PteDota from '../../images/pte-dota.png'
-import PteFaraland from '../../images/Faraland.png'
-import PteFota from '../../images/Fota.png'
-import PteSandbox from '../../images/Sandbox.png'
-import PteMitra from '../../images/Mitra.png'
-import PteWanaka from '../../images/Wanaka.png'
-import PteStepHero from '../../images/Step-hero.png'
+import PteFaraland from '../../images/pte-faraland.png'
+import PteFota from '../../images/pte-fota.png'
+import PteSandbox from '../../images/pte-sanbox.png'
+import PteMitra from '../../images/pte-mitra.png'
+import PteWanaka from '../../images/pte-wanaka.png'
+import PteStepHero from '../../images/pte-step.png'
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -30,14 +30,14 @@ const PlayToEarn = () => {
         // slidesToScroll: -1,
         autoplay: true,
         arrows:false,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 4000,
+        autoplaySpeed: 4000,
         cssEase: "linear",
         responsive:[
             {
                 breakpoint: 2000,
                 settings:{
-                    slidesToShow:3,
+                    slidesToShow:4,
                     slidesToScroll:1,
                     infinte:true,
                     cssEase: "linear",
@@ -74,14 +74,14 @@ const PlayToEarn = () => {
         // slidesToScroll: -1,
         autoplay: true,
         arrows:false,
-        speed: 2000,
-        autoplaySpeed: 2000,
+        speed: 4000,
+        autoplaySpeed: 4000,
         cssEase: "linear",
         responsive:[
             {
                 breakpoint: 2000,
                 settings:{
-                    slidesToShow:3,
+                    slidesToShow:4,
                     slidesToScroll:-1,
                     infinte:true,
                     cssEase: "linear",

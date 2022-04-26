@@ -21,7 +21,7 @@ const RoadMapCard = ({RoadMapImage,p1,p2,p3,p4,p5,fourthLi, LastLi}) => {
             </div>
             </Fade>
             <div className="road-map-card-list">
-            <Fade right cascade={true}>
+            <Fade right delay={2000} wait={3000} cascade={true}>
                 <ul>
                     <li><p>{p1}</p></li>
                     <li> <p>{p2}</p> </li> 
