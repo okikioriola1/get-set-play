@@ -219,8 +219,8 @@
         align-items: center;
     }
     .controller-img{
-        width: 80%;
-        height:80%;
+        width: 100%;
+        height:100%;
 
     
     }
@@ -244,6 +244,9 @@
 
 
 @media (max-width:550px){
+    .controller-img{
+        width:429px;
+    }
     .gsp__herosection{
         padding-bottom: 0rem;
         height:770px;
@@ -254,6 +257,9 @@
 
     .gsp__hero-icons{
         display: none;
+    }
+    .gsp__hero-left-side{
+        padding-bottom:6rem;
     }
     .gsp__left-side-content h1{
         font-size: 50px;
