@@ -31,7 +31,7 @@ const PlayToEarn = () => {
         autoplay: true,
         arrows:false,
         speed: 4000,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1000,
         cssEase: "linear",
         responsive:[
             {
@@ -75,7 +75,7 @@ const PlayToEarn = () => {
         autoplay: true,
         arrows:false,
         speed: 4000,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 1000,
         cssEase: "linear",
         responsive:[
             {
